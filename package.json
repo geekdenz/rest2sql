@@ -10,13 +10,17 @@
     "typescript": "^3.2.2"
   },
   "devDependencies": {
+    "@types/expect": "^1.20.3",
+    "@types/mocha": "^5.2.5",
     "expect": "^23.6.0",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "ts-mocha": "^2.0.0"
   },
   "scripts": {
     "start": "tsc",
     "watch": "tsc -w",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ts-mocha -p tsconfig.json src/test/**/*.test.ts",
+    "test-watch": "ts-mocha -w -p tsconfig.json src/test/**/*.test.ts"
   },
   "repository": {
     "type": "git",
