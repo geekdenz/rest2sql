@@ -1,0 +1,38 @@
+{
+  "name": "rest2sql",
+  "version": "1.0.0",
+  "description": "RESTful API to SQL DB Schema.",
+  "main": "index.js",
+  "dependencies": {
+    "inversify": "^5.0.1",
+    "quokka-mocha-bdd": "^1.3.1",
+    "reflect-metadata": "^0.1.12",
+    "typescript": "^3.2.2"
+  },
+  "devDependencies": {
+    "expect": "^23.6.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "start": "tsc",
+    "watch": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geekdenz/rest2sql.git"
+  },
+  "keywords": [
+    "sql",
+    "restful",
+    "service",
+    "json2sql",
+    "json"
+  ],
+  "author": "Tim-Hinnerk Heuer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geekdenz/rest2sql/issues"
+  },
+  "homepage": "https://github.com/geekdenz/rest2sql#readme"
+}
